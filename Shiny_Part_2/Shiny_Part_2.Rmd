@@ -36,7 +36,7 @@ calc_sum()
 
 ```{r, echo=FALSE}
 library(webshot)
-appshot("app1", "app1.png")
+appshot("app1", "app1.png", delay = 0.5, vwidth = 1200, vheight=500)
 ```
 
 This application predicts the horsepower of a car given
@@ -149,7 +149,7 @@ added to the app.
 
 ```{r, echo=FALSE}
 library(webshot)
-appshot("app2", "app2.png")
+appshot("app2", "app2.png", delay = 0.5, vwidth = 1200, vheight=500)
 ```
 
 ## Reactive Horsepower: ui.R
@@ -183,7 +183,7 @@ the contents of an individual tab.
 
 ```{r, echo=FALSE}
 library(webshot)
-appshot("app3", "app3.png")
+appshot("app3", "app3.png", delay = 0.5, vwidth = 1200, vheight=500)
 ```
 
 ## Tabs: ui.R
@@ -237,7 +237,7 @@ of best fit for the resulting model.
 
 ```{r, echo=FALSE}
 library(webshot)
-appshot("app4", "app4.png")
+appshot("app4", "app4.png", delay = 0.5, vwidth = 1200, vheight=500)
 ```
 
 ## Interactive Graphics: ui.R
