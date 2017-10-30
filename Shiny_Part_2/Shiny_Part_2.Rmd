@@ -4,6 +4,10 @@ author: "The Johns Hopkins Data Science Lab"
 always_allow_html: yes
 ---
 
+## Location of the repos
+
+https://github.com/datasciencespecialization/Developing_Data_Products
+
 ## Reactivity
 
 A reactive expression is like a recipe that manipulates
